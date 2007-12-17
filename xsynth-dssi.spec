@@ -12,7 +12,6 @@ Patch:		%{name}-0.9.0-uidir.patch
 URL:		http://dssi.sourceforge.net
 License:	GPL
 Group:		Sound
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	dssi-devel
 BuildRequires:	liblo-devel
 BuildRequires:	libalsa-devel
