@@ -27,13 +27,13 @@ Xsynth-DSSI plugin, a classic-analog (VCOs-VCF-VCA) style software synthesizer.
 %patch -p0
 
 %build
-autoreconf
+autoreconf -fi
 %configure2_5x
 %make
 								
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
