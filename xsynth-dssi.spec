@@ -1,5 +1,5 @@
 %define name	xsynth-dssi
-%define version	0.9.2
+%define version	0.9.4
 %define release %mkrel 1
 
 Name: 	 	%{name}
@@ -7,7 +7,7 @@ Summary: 	Xsynth-DSSI plugin
 Version: 	%{version}
 Release: 	%{release}
 
-Source:		http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.bz2
+Source:		http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.gz
 URL:		http://dssi.sourceforge.net
 License:	GPLv2+
 Group:		Sound
@@ -25,7 +25,6 @@ Xsynth-DSSI plugin, a classic-analog (VCOs-VCF-VCA) style software synthesizer.
 %setup -q
 
 %build
-autoreconf -fi
 %configure2_5x
 %make
 								
