@@ -1,7 +1,7 @@
 Name:       xsynth-dssi
 Summary:    Xsynth-DSSI plugin
 Version:    0.9.4
-Release:    2
+Release:    3
 
 Source:     http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.gz
 URL:        http://dssi.sourceforge.net
