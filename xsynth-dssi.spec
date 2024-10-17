@@ -4,7 +4,7 @@ Version:    0.9.4
 Release:    3
 
 Source:     http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.gz
-URL:        http://dssi.sourceforge.net
+URL:        https://dssi.sourceforge.net
 License:    GPLv2+
 Group:      Sound
 
